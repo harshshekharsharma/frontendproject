@@ -1,0 +1,102 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: black;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(https://images.pexels.com/photos/1563256/pexels-photo-1563256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(https://images.pexels.com/photos/548084/pexels-photo-548084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 400px;
+}
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color:  white;
+    color: black;
+
+
+}
+
+.section-dark{
+    background-color:  white;
+    color: black;
+    
+
+}
+
+.ptext{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.ptext2{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.ptext3{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+
+.ptext .border{
+    background-color: white;
+    padding: 20px;
+
+}
+
+.ptext2 .border{
+    background-color: white;
+    padding: 20px;
+
+}
+
+.ptext3 .border{
+    background-color: white;
+    padding: 20px;
+
+}
